@@ -6,7 +6,7 @@
     <title>Explore Kerala</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
     <!-- Navigation section -->
     <div class="row nav-padding">
       <div class="col-xl-3 d-flex justify-content-start">
-        <img src="/Images/keralaTourismLogo.jpg" alt="Kerala Tourism Logo" height="75">
+        <img src="/images/keralaTourismLogo.jpg" alt="Kerala Tourism Logo" height="75">
         <div class="d-flex flex-column align-self-center name-banner">
           <h4>keralatourism.org</h4>
           <p>Welcome to God's own country</p>
@@ -33,36 +33,44 @@
       <div class="col-xl-9 d-flex justify-content-end">
         <ul class="d-flex flex-row nav-links justify-content-between">
           <li><a href="/index.html">Home</a></li>
-          <li><a href="/login.html">Login</a></li>
-          <li><a href="signup.html">Sign Up</a></li>
-          <li><a href="contactus.html">Contact Us</a></li>
-          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="/navigation/login.html">Login</a></li>
+          <li><a href="/navigation/signup.html">Sign Up</a></li>
+          <li><a href="/navigation/contactus.html">Contact Us</a></li>
+          <li><a href="/navigation/aboutus.html">About Us</a></li>
         </ul>
       </div>
     </div>
     <!-- content section -->
     <div class="d-flex justify-content-center title-content">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselDist" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
       <h1>Districts of Kerala</h1>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselDist" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
     <div id="carouselDist" class="carousel slidepassword"> 
       <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row">
               <div class="col-xl-4 explore-district">
-                  <a href="trivandrum.html">
-                    <img src="Images/trivandrum.jpg" alt="Trivandrum">
+                  <a href="/districts/trivandrum.html">
+                    <img src="/images/trivandrum.jpg" alt="Trivandrum">
                     <p>Click here to explore more in Trivandrum</p>
                   </a>
               </div>
               <div class="col-xl-4 explore-district">
-                <a href="kollam.html">
-                  <img src="Images/kollam.jpg" alt="Kollam">
+                <a href="/districts/kollam.html">
+                  <img src="/images/kollam.jpg" alt="Kollam">
                   <p>Click here to explore more in Kollam</p>
                 </a>
               </div>
               <div class="col-xl-4 explore-district">
-                <a href="pathanamthitta.html">
-                  <img src="Images/pathanamthitta.jpg" alt="Pathanamthitta">
+                <a href="/districts/pathanamthitta.html">
+                  <img src="/images/pathanamthitta.jpg" alt="Pathanamthitta">
                   <p>Click here to explore more in Pathanamthitta</p>
                 </a>
               </div>
@@ -70,14 +78,14 @@
             <div class="row">
               <div class="col-xl-2"></div>
               <div class="col-xl-4 explore-district">
-                <a href="alappuzha.html">
-                  <img src="Images/alappuzha.jpg" alt="Alappuzha">
+                <a href="/districts/alappuzha.html">
+                  <img src="/images/alappuzha.jpg" alt="Alappuzha">
                   <p>Click here to explore more in Alappuzha</p>
                 </a>
               </div>
               <div class="col-xl-4 explore-district">
-                <a href="kottayam.html">
-                  <img src="Images/Kottayam.jpg" alt="Kottayam">
+                <a href="/districts/kottayam.html">
+                  <img src="/images/Kottayam.jpg" alt="Kottayam">
                   <p>Click here to explore more in Kottayam</p>
                 </a>
               </div>
@@ -87,20 +95,20 @@
           <div class="carousel-item">
             <div class="row">
               <div class="col-xl-4 explore-district">
-                  <a href="idukki.html">
-                    <img src="Images/Idukki.jpg" alt="Idukki">
+                  <a href="/districts/idukki.html">
+                    <img src="/images/Idukki.jpg" alt="Idukki">
                     <p>Click here to explore more in Idukki</p>
                   </a>
               </div>
               <div class="col-xl-4 explore-district">
-                <a href="ernakulam.html">
-                  <img src="Images/Ernakulam.jpg" alt="Ernakulam">
+                <a href="/districts/ernakulam.html">
+                  <img src="/images/Ernakulam.jpg" alt="Ernakulam">
                   <p>Click here to explore more in Ernakulam</p>
                 </a>
               </div>
               <div class="col-xl-4 explore-district">
-                <a href="thrissur.html">
-                  <img src="Images/thrissur.jpg" alt="Thrissur">
+                <a href="/districts/thrissur.html">
+                  <img src="/images/thrissur.jpg" alt="Thrissur">
                   <p>Click here to explore more in Thrissur</p>
                 </a>
               </div>
@@ -108,14 +116,14 @@
             <div class="row">
               <div class="col-xl-2"></div>
               <div class="col-xl-4 explore-district">
-                <a href="palakkad.html">
-                  <img src="Images/Palakkad.jpg" alt="Palakkad">
+                <a href="/districts/palakkad.html">
+                  <img src="/images/Palakkad.jpg" alt="Palakkad">
                   <p>Click here to explore more in Palakkad</p>
                 </a>
               </div>
               <div class="col-xl-4 explore-district">
-                <a href="malappuram.html">
-                  <img src="Images/malappuram.jpg" alt="Malappuram">
+                <a href="/districts/malappuram.html">
+                  <img src="/images/malappuram.jpg" alt="Malappuram">
                   <p>Click here to explore more in Malappuram</p>
                 </a>
               </div>
@@ -125,42 +133,34 @@
           <div class="carousel-item">
             <div class="row">
               <div class="col-xl-4 explore-district">
-                  <a href="kozhikode.html">
-                    <img src="Images/kozhikode.jpg" alt="Kozhikode">
+                  <a href="/districts/kozhikode.html">
+                    <img src="/images/kozhikode.jpg" alt="Kozhikode">
                     <p>Click here to explore more in Kozhikode</p>
                   </a>
               </div>
               <div class="col-xl-4 explore-district">
-                <a href="wayanad.html">
-                  <img src="Images/wayanad.jpg" alt="Wayanad">
+                <a href="/districts/wayanad.html">
+                  <img src="/images/wayanad.jpg" alt="Wayanad">
                   <p>Click here to explore more in Wayanad</p>
                 </a>
               </div>
               <div class="col-xl-4 explore-district">
-                <a href="kannur.html">
-                  <img src="Images/kannur.jpg" alt="Kannur">
+                <a href="/districts/kannur.html">
+                  <img src="/images/kannur.jpg" alt="Kannur">
                   <p>Click here to explore more in Kannur</p>
                 </a>
               </div>
             </div>
             <div class="row">
               <div class="col-xl-12 explore-district">
-                <a href="kasargod.html">
-                  <img src="Images/kasargod.jpg" alt="Kasargod">
+                <a href="/districts/kasargod.html">
+                  <img src="/images/kasargod.jpg" alt="Kasargod">
                   <p>Click here to explore more in Kasargod</p>
                 </a>
               </div>
             </div>
           </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselDist" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselDist" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
   </div>
     
 </div>

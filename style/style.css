@@ -1,6 +1,10 @@
 body {
     overflow-x: hidden; /* Hide scrollbars */
     color: white;
+    a {
+        color: white;
+        text-decoration: none;
+    }
 }
 .carousel-bg {
     z-index: -99;
@@ -16,17 +20,17 @@ body {
     transition: opacity 1s;
 }
 #c-one {
-    background: url(../Images/background-one.jpg);
+    background: url(../images/background-one.jpg);
     background-size: cover;
     -moz-background-size: cover;
 }
 #c-two {
-    background: url(../Images/background-two.jpg);
+    background: url(../images/background-two.jpg);
     background-size: cover;
     -moz-background-size: cover;
 }
 #c-three {
-    background: url(../Images/background-three.jpg);
+    background: url(../images/background-three.jpg);
     background-size: cover;
     -moz-background-size: cover;
 }
@@ -93,6 +97,10 @@ body {
 
 .title-content{
     font-family: Arial, Helvetica, sans-serif;
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 .explore-district{
@@ -143,5 +151,16 @@ body {
     }
     img{
         border-radius: var(--bs-border-radius);
+    }
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    position: relative;
+}
+
+.navbar-nav {
+    a {
+        color: white;
     }
 }
