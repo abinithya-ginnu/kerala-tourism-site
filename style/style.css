@@ -20,17 +20,17 @@ body {
     transition: opacity 1s;
 }
 #c-one {
-    background: url(../images/background-one.jpg);
+    background: url(../Images/background-one.jpg);
     background-size: cover;
     -moz-background-size: cover;
 }
 #c-two {
-    background: url(../images/background-two.jpg);
+    background: url(../Images/background-two.jpg);
     background-size: cover;
     -moz-background-size: cover;
 }
 #c-three {
-    background: url(../images/background-three.jpg);
+    background: url(../Images/background-three.jpg);
     background-size: cover;
     -moz-background-size: cover;
 }
